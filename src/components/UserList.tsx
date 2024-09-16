@@ -1,13 +1,15 @@
-import { List, Datagrid, TextField, EmailField, UrlField } from "react-admin";
+import { List, Datagrid, TextField, EmailField } from "react-admin";
 
-export const UserList = (props: any) => (
-  <List {...props}>
+export const UserList = () => (
+  <List>
     <Datagrid>
       <TextField source="id" />
       <TextField source="name" />
+      <TextField source="username" />
       <EmailField source="email" />
+      <TextField source="address.street" />
       <TextField source="phone" />
-      <UrlField source="website" />
+      <TextField source="website" />
       <TextField source="company.name" />
     </Datagrid>
   </List>
