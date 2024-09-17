@@ -1,11 +1,10 @@
 import {
   Admin,
   Resource,
+  ListGuesser,
   EditGuesser,
   ShowGuesser,
-  ListGuesser,
 } from "react-admin";
-
 import { Layout } from "./Layout";
 import { dataProvider } from "./dataProvider";
 import { authProvider } from "./authProvider";
