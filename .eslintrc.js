@@ -21,7 +21,7 @@ module.exports = {
   },
   rules: {
     'no-undef': 'off',
-    'no-console': 'warn',
+    'no-console': 'off',
     'react/prop-types': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
   },
